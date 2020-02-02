@@ -289,7 +289,7 @@ Make sure to install both Debug and Release configurations straight ahead, if we
     $ mkdir build && cd build
     $ conan workspace install ../conanws_vs.yml
     $ conan workspace install ../conanws_vs.yml -s build_type=Debug
-    $ cmake .. -G "Visual Studio 15 Win64"
+    $ cmake .. -G "Visual Studio 15 2017 Win64"
 
 With those commands you will get a Visual Studio solution, that you can open, select the *app* executable as StartUp project, and start building,
 executing, debugging, switching from Debug and Release configurations freely from the IDE, without needing to issue further Conan commands.
